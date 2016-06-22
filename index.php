@@ -1,5 +1,8 @@
+<?php
+$var = 'hola';
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
@@ -61,12 +64,12 @@
                     <li>
                         <a class="page-scroll" href="#portfolio">Servicios</a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Blog</a>
-                    </li>
+                    </li>-->
                     <li>
                         <a class="page-scroll" href="#contact">Contacto</a>
                     </li>
@@ -220,7 +223,7 @@
     </section>
 
     <!-- About Section -->
-    <section id="about">
+    <section id="about" class="hidden" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -301,7 +304,7 @@
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+    <section id="team" class="bg-light-gray hidden ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -398,7 +401,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contacto</h2>
-                    <h3 class="section-subheading text-muted">Escriba su consulta y le responderemos a la brevedad.</h3>
+                    <h3 class="section-subheading text-mutedQW ">Escriba su consulta y le responderemos a la brevedad.</h3>
                 </div>
             </div>
             <div class="row">
@@ -407,28 +410,29 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <input type="text" class="form-control" placeholder="Nombre *" id="name" required data-validation-required-message="Please enter your name.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <input type="email" class="form-control" placeholder="Correo *" id="email" required data-validation-required-message="Please enter your email address.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <input type="tel" class="form-control" placeholder="Teléfono/Celular *" id="phone" required data-validation-required-message="Please enter your phone number.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" placeholder="Consulta *" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <button id="btnEnviar" type="submit" class="btn btn-xl">Send Message</button>
+                                <img id="loadingMail" src="img/carta.gif" alt="" class="hidden">
                             </div>
                         </div>
                     </form>
@@ -441,7 +445,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2014</span>
+                    <span class="copyright">Copyright &copy; GSI SAC</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -609,7 +613,7 @@
 
                             <p>Resolución por realizar labor remunerada durante el periodo de subsidio:</p>
                             
-                            <img class="img-responsive img-centered" src="img/servicios/resolucion-01.png" alt="">
+                            <img class="img-responsive img-centered" src="img/servicios/resolucion.png" alt="">
 
                             <p>Recurso de  reconsideración:</p>
                             <ul>
