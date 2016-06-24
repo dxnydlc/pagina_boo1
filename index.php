@@ -49,29 +49,29 @@ $var = 'hola';
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Gestión & Soluciones Integrales</a>
+                <a class="navbar-brand page-scroll color-azul " href="#page-top">Gestión & Soluciones Integrales</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right menu-superior ">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Nosotros</a>
+                        <a class="page-scroll color-azul " href="#services">Nosotros</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Servicios</a>
+                        <a class="page-scroll color-azul " href="#portfolio">Servicios</a>
                     </li>
                     <!--<li>
                         <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Blog</a>
                     </li>-->
                     <li>
-                        <a class="page-scroll" href="#contact">Contacto</a>
+                        <a class="page-scroll color-azul " href="#clientes">Clientes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll color-azul " href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -84,9 +84,9 @@ $var = 'hola';
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in color-amarillo ">Recupero de Subsidios</div>
-                <div class="intro-heading color-amarillo ">Trámites en ESSALUD</div>
-                <a href="#services" class="page-scroll btn btn-xl">Saber más</a>
+                <div class="intro-lead-in color-azul1 ">Recupero de Subsidios</div>
+                <div class="intro-heading color-azul1 ">Trámites en ESSALUD</div>
+                <!--<a href="#services" class="page-scroll btn btn-xl">Saber más</a>-->
             </div>
         </div>
     </header>
@@ -96,27 +96,28 @@ $var = 'hola';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Acerca de nosotros</h2>
+                    <h2 class="section-heading color-azul ">Acerca de nosotros</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
             <div class="row ">
-                <div class="col-md-6">
+                <div class="col-md-12 ">
                     <!--<span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>-->
-                    <h4 class="service-heading text-center ">Misión</h4>
-                    <p class="text-muted">Proporcionar a las empresas el soporte y gestión del recupero de subsidios y trámites ante Es salud.<br/>
+                    <h4 class="service-heading text-center color-azul ">Misión</h4>
+                    <p class="text-muted text-center ">Proporcionar a las empresas el soporte y gestión del recupero de subsidios y trámites ante Es salud.<br/>
                     Generando así un mayor tiempo y efectividad a las empresas en todo el relacionado a temas de asistencia social, cumpliendo con los reglamentos y normas legales que regulan el proceso.</p>
                 </div>
-                <div class="col-md-6">
+                <hr/>
+                <div class="col-md-12 ">
                     <!--<span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>-->
-                    <h4 class="service-heading text-center ">Visión</h4>
-                    <p class="text-muted">Ser una empresa líder e innovadora en los temas de servicios de asistencia social.<br/>
+                    <h4 class="service-heading text-center color-azul ">Visión</h4>
+                    <p class="text-muted text-center ">Ser una empresa líder e innovadora en los temas de servicios de asistencia social.<br/>
                     Con una atención personalizada, se le dará la comodidad tanto a los trabajadores como a las empresas logrando así una excelencia en el rubro de prestaciones de servicios.</p>
                 </div>
                 </div>
@@ -129,7 +130,7 @@ $var = 'hola';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Servicios</h2>
+                    <h2 class="section-heading color-azul ">Servicios</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
@@ -141,10 +142,10 @@ $var = 'hola';
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/servicios/img-serv-01.jpg" class="img-responsive" alt="">
+                        <img src="img/servicios/img-descanso-medic.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Canje descansos médicos</h4>
+                        <h4 class="color-azul" >Canje descansos médicos</h4>
                         <p class="text-muted">Particulares</p>
                     </div>
                 </div>
@@ -158,7 +159,7 @@ $var = 'hola';
                         <img src="img/servicios/img-serv-05.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Gestión de Subsidios</h4>
+                        <h4 class="color-azul" >Gestión de Subsidios</h4>
                         <p class="text-muted">Cómo gestionar</p>
                     </div>
                 </div>
@@ -172,7 +173,7 @@ $var = 'hola';
                         <img src="img/servicios/startup-framework.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Resoluciónes</h4>
+                        <h4 class="color-azul" >Resoluciónes</h4>
                         <p class="text-muted">Incidencias en el trámite</p>
                     </div>
                 </div>
@@ -183,10 +184,10 @@ $var = 'hola';
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/servicios/img-serv-04.jpg" class="img-responsive" alt="">
+                        <img src="img/servicios/essalud-logo.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Incripción en ESSALUD</h4>
+                        <h4 class="color-azul" >Inscripción en ESSALUD</h4>
                         <p class="text-muted">Cómo gestionar</p>
                     </div>
                 </div>
@@ -200,7 +201,7 @@ $var = 'hola';
                         <img src="img/servicios/img-serv-02.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Gestión de Lactancia</h4>
+                        <h4 class="color-azul" >Gestión de Lactancia</h4>
                         <p class="text-muted">Cómo gestionar</p>
                     </div>
                 </div>
@@ -304,104 +305,53 @@ $var = 'hola';
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="bg-light-gray hidden ">
+    <section id="clientes" class="bg-light-gray  ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Nuestros clientes</h2>
+                    <h2 class="section-heading color-azul ">Nuestros clientes</h2>
                     <h3 class="section-subheading text-muted">Marcas que cuentan con nuestros servicios</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
+            <!-- Clients Aside -->
+            <aside class="clients">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <a href="#">
+                                <img src="img/logos/logo-campo-fe.png" class="img-responsive img-centered" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a href="#">
+                                <img src="img/logos/logo-rm.png" class="img-responsive img-centered" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a href="#">
+                                <img src="img/logos/logo-saxon.png" class="img-responsive img-centered" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a href="#">
+                                <img src="img/logos/logp-pepsico.png" class="img-responsive img-centered" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
-            </div>
+            </aside>
         </div>
     </section>
 
-    <!-- Clients Aside -->
-    <aside class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </aside>
+            
     
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contacto</h2>
-                    <h3 class="section-subheading text-mutedQW ">Escriba su consulta y le responderemos a la brevedad.</h3>
+                    <h2 class="section-heading color-azul ">Contacto</h2>
+                    <h3 class="section-subheading text-muted ">Escriba su consulta y le responderemos a la brevedad.</h3>
                 </div>
             </div>
             <div class="row">
@@ -486,9 +436,8 @@ $var = 'hola';
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body text-left">
                             <!-- Project Details Go Here -->
-                            <h3>Trámite para canje de descansos médicos particulares en Es Salud:</h3>
-                            <!--<p class="item-intro text-muted">Sepa cómo tramitar su descanso médio.</p>-->
-                            <!--<img class="img-responsive img-centered" src="img/servicios/img-serv-01.jpg" alt="">-->
+                            <h3 class="color-azul" >Trámite para canje de descansos médicos particulares en Es Salud:</h3>
+                            
                             <p>Requerimiento en el caso de Enfermedad Común:</p>
                             <ul class="list-inline2">
                                 <li>Anexo 10 (Enfermada Común)</li>
@@ -539,7 +488,7 @@ $var = 'hola';
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body text-left">
-                            <h3>Trámite de Subsidios por incapacidad temporal:</h3>
+                            <h3 class="color-azul" >Trámite de Subsidios por incapacidad temporal:</h3>
                             <!--<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>-->
                             <!--<img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">-->
                             <!--<p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>-->
@@ -594,8 +543,8 @@ $var = 'hola';
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body text-left">
                             <!-- Project Details Go Here -->
-                            <h3>Resolución por morosidad</h3>
-                            <!--<p class="item-intro text-muted">Resolución por morosidad</p>-->
+                            <h3 class="color-azul" >Resolución por morosidad</h3>
+
                             <img class="img-responsive img-centered" src="img/servicios/resolucion.png" alt="">
                             
                             <br/>
@@ -656,7 +605,7 @@ $var = 'hola';
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body text-left ">
                             <!-- Project Details Go Here -->
-                            <h3>Trámite de Inscripción en ESSALUD</h3>
+                            <h3 class="color-azul" >Trámite de Inscripción en ESSALUD</h3>
                             
                             <p>Requerimiento</p>
                             <ul>
@@ -699,7 +648,7 @@ $var = 'hola';
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body text-left ">
                             <!-- Project Details Go Here -->
-                            <h3>Trámite de Lactancia:</h3>
+                            <h3 class="color-azul" >Trámite de Lactancia:</h3>
 
                             <p>Requerimiento</p>
                             <ul>
