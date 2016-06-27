@@ -96,28 +96,28 @@ $var = 'hola';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading color-azul ">Acerca de nosotros</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <!--<h3 class="section-heading color-azul ">Acerca de nosotros</h3>-->
+                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+                    <img src="img/mision-vision/banner-001.jpg" alt="" class="img-responsive">
                 </div>
             </div>
             <div class="row ">
-                <div class="col-md-12 ">
+                <div class="col-md-6 ">
                     <!--<span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>-->
                     <h4 class="service-heading text-center color-azul ">Misión</h4>
-                    <p class="text-muted text-center ">Proporcionar a las empresas el soporte y gestión del recupero de subsidios y trámites ante Es salud.<br/>
+                    <p class="text-muted text-left ">Proporcionar a las empresas el soporte y gestión del recupero de subsidios y trámites ante <strong>ESSALUD</strong>.<br/>
                     Generando así un mayor tiempo y efectividad a las empresas en todo el relacionado a temas de asistencia social, cumpliendo con los reglamentos y normas legales que regulan el proceso.</p>
                 </div>
-                <hr/>
-                <div class="col-md-12 ">
+                <div class="col-md-6 ">
                     <!--<span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>-->
                     <h4 class="service-heading text-center color-azul ">Visión</h4>
-                    <p class="text-muted text-center ">Ser una empresa líder e innovadora en los temas de servicios de asistencia social.<br/>
+                    <p class="text-muted text-left ">Ser una empresa líder e innovadora en los temas de servicios de asistencia social.<br/>
                     Con una atención personalizada, se le dará la comodidad tanto a los trabajadores como a las empresas logrando así una excelencia en el rubro de prestaciones de servicios.</p>
                 </div>
                 </div>
@@ -131,7 +131,7 @@ $var = 'hola';
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading color-azul ">Servicios</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
                 </div>
             </div>
             <div class="row">
@@ -350,8 +350,8 @@ $var = 'hola';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading color-azul ">Contacto</h2>
-                    <h3 class="section-subheading text-muted ">Escriba su consulta y le responderemos a la brevedad.</h3>
+                    <h2 class="section-heading color-blanco ">Contacto</h2>
+                    <h3 class="section-subheading text-muted color-blanco ">Escriba su consulta y le responderemos a la brevedad.</h3>
                 </div>
             </div>
             <div class="row">
@@ -381,7 +381,7 @@ $var = 'hola';
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button id="btnEnviar" type="submit" class="btn btn-xl">Send Message</button>
+                                <button id="btnEnviar" type="submit" class="btn btn-xl">Enviar consulta</button>
                                 <img id="loadingMail" src="img/carta.gif" alt="" class="hidden">
                             </div>
                         </div>
