@@ -66,9 +66,9 @@ $var = 'hola';
                     <li>
                         <a class="page-scroll color-azul " href="#portfolio">Servicios</a>
                     </li>
-                    <!--<li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>-->
+                    <li>
+                        <a class="page-scroll" href="/blog">Blog</a>
+                    </li>
                     <li>
                         <a class="page-scroll color-azul " href="#clientes">Clientes</a>
                     </li>
