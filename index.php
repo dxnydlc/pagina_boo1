@@ -138,7 +138,7 @@ $var = 'hola';
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="http://gsisac.com.pe/blog/index.php/procedimiento-para-canje-de-descansos-medicos-particulares-essalud/" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -152,7 +152,7 @@ $var = 'hola';
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="http://gsisac.com.pe/blog/index.php/2016/07/05/tramite-de-subsidios-por-maternidad/" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -166,7 +166,7 @@ $var = 'hola';
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="http://gsisac.com.pe/blog/index.php/2016/07/13/incidencias-en-el-tramite-de-subsidios/" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -180,7 +180,7 @@ $var = 'hola';
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <a href="http://gsisac.com.pe/blog/index.php/2016/07/05/requisitos-para-inscripcion-de-madre-gestante-yo-extra-matrimonial/" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -194,7 +194,7 @@ $var = 'hola';
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <a href="http://gsisac.com.pe/blog/index.php/2016/07/04/subsidio-por-lactancia/" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -321,6 +321,11 @@ $var = 'hola';
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
                             <a href="#">
+                                <img src="img/logos/logp-pepsico.png" class="img-responsive img-centered" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a href="#">
                                 <img src="img/logos/logo-campo-fe.png" class="img-responsive img-centered" alt="">
                             </a>
                         </div>
@@ -334,11 +339,7 @@ $var = 'hola';
                                 <img src="img/logos/logo-saxon.png" class="img-responsive img-centered" alt="">
                             </a>
                         </div>
-                        <div class="col-md-3 col-sm-6">
-                            <a href="#">
-                                <img src="img/logos/logp-pepsico.png" class="img-responsive img-centered" alt="">
-                            </a>
-                        </div>
+                        
                     </div>
                 </div>
             </aside>
