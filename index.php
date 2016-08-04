@@ -86,8 +86,8 @@ $var = 'hola';
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in color-azul1 ">Recupero de Subsidios</div>
-                <div class="intro-heading color-azul1 ">Trámites en ESSALUD</div>
+                <div class="intro-heading color-azul1 ">Gestión de Asistencia Social</div>
+                <div class="intro-lead-in color-azul1 ">Desarrollo de eventos corporativos</div>
                 <!--<a href="#services" class="page-scroll btn btn-xl">Saber más</a>-->
             </div>
         </div>
