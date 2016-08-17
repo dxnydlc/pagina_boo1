@@ -18,7 +18,7 @@ $var = 'hola';
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/agency.css?v=1" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -61,6 +61,9 @@ $var = 'hola';
                         <a href="#page-top"></a>
                     </li>
                     <li>
+                        <a class="page-scroll color-azul " href="#quienessomos">Quienes Somos</a>
+                    </li>
+                    <li>
                         <a class="page-scroll color-azul " href="#services">Nosotros</a>
                     </li>
                     <li>
@@ -86,12 +89,42 @@ $var = 'hola';
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in color-azul1 ">Recupero de Subsidios</div>
-                <div class="intro-heading color-azul1 ">Trámites en ESSALUD</div>
+                <div class="intro-heading color-azul1 ">Gestión de Asistencia Social &</div>
+                <div class="intro-lead-in color-azul1 ">Desarrollo de eventos corporativos</div>
                 <!--<a href="#services" class="page-scroll btn btn-xl">Saber más</a>-->
             </div>
         </div>
     </header>
+
+    <!-- Quienes somos -->
+    <section id="quienessomos">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <!--<h3 class="section-heading color-azul ">Acerca de nosotros</h3>-->
+                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+                    <img src="img/logos/logo-big.jpg" alt="" class="img-responsive img-center ">
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-12">
+                    <h4 class="service-heading text-center color-azul ">Quiénes somos</h4>
+                    <p class="text-muted text-left "><strong>SGI SAC</strong> somos una empresa especialista en la gestión
+                        de recupero de subsidios y trámites ante Essalud. Además
+                        brindamos servicios adicionales que complementen las
+                        actividades en bienestar social dentro de las instituciones.
+
+                        Nuestro principal objetivo como empresa es gestionar toda
+                        recuperación por concepto de licencias médicas,
+                        cumpliendo con los reglamentos y normas legales que
+                        regulan el proceso. Para ello contamos con personal
+                        calificado con amplia experiencia, logrando así con éxito la
+                        recuperación oportuna de los subsidios dela empresa.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Services Section -->
     <section id="services">
@@ -138,7 +171,7 @@ $var = 'hola';
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="http://gsisac.com.pe/blog/index.php/procedimiento-para-canje-de-descansos-medicos-particulares-essalud/" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -152,13 +185,13 @@ $var = 'hola';
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="http://gsisac.com.pe/blog/index.php/2016/07/05/tramite-de-subsidios-por-maternidad/" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/servicios/img-serv-05.jpg" class="img-responsive" alt="">
+                        <img src="img/servicios/subsidios-01.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4 class="color-azul" >Gestión de Subsidios</h4>
@@ -166,13 +199,13 @@ $var = 'hola';
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="http://gsisac.com.pe/blog/index.php/2016/07/13/incidencias-en-el-tramite-de-subsidios/" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/servicios/startup-framework.png" class="img-responsive" alt="">
+                        <img src="img/servicios/resolucion-02.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4 class="color-azul" >Resoluciónes</h4>
@@ -180,7 +213,7 @@ $var = 'hola';
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <a href="http://gsisac.com.pe/blog/index.php/2016/07/05/requisitos-para-inscripcion-de-madre-gestante-yo-extra-matrimonial/" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -194,7 +227,7 @@ $var = 'hola';
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <a href="http://gsisac.com.pe/blog/index.php/2016/07/04/subsidio-por-lactancia/" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -321,6 +354,11 @@ $var = 'hola';
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
                             <a href="#">
+                                <img src="img/logos/logp-pepsico.png" class="img-responsive img-centered" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a href="#">
                                 <img src="img/logos/logo-campo-fe.png" class="img-responsive img-centered" alt="">
                             </a>
                         </div>
@@ -334,11 +372,7 @@ $var = 'hola';
                                 <img src="img/logos/logo-saxon.png" class="img-responsive img-centered" alt="">
                             </a>
                         </div>
-                        <div class="col-md-3 col-sm-6">
-                            <a href="#">
-                                <img src="img/logos/logp-pepsico.png" class="img-responsive img-centered" alt="">
-                            </a>
-                        </div>
+                        
                     </div>
                 </div>
             </aside>

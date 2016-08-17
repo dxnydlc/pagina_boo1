@@ -41,3 +41,11 @@ a{
 body, a, li, ul, p, h1,h2,h3,h4,h5,td,th,button, input{
 	font-family: 'Roboto Condensed', sans-serif !important;
 }
+
+section {
+    padding: 120px 0;
+}
+
+.img-center{
+	margin: 0 auto;
+}
