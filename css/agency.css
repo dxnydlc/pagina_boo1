@@ -46,3 +46,17 @@ body, a, li, ul, p, h1,h2,h3,h4,h5,td,th,button, input{
 .img-center{
 	margin: 0 auto;
 }
+
+section{
+	padding: 90px 0 !important;
+}
+
+
+section#contact
+{
+	background-color:#222;
+	background-image:url(../img/img-contacto-01.jpg);
+	background-position:center;
+	background-repeat:no-repeat
+}
+

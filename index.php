@@ -61,9 +61,6 @@ $var = 'hola';
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll color-azul " href="#quienessomos">Quienes Somos</a>
-                    </li>
-                    <li>
                         <a class="page-scroll color-azul " href="#services">Nosotros</a>
                     </li>
                     <li>
@@ -98,14 +95,16 @@ $var = 'hola';
         </div>
     </header>
 
-    <!-- Quienes somos -->
-    <section id="quienessomos">
+
+
+    <!-- Services Section -->
+    <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <!--<h3 class="section-heading color-azul ">Acerca de nosotros</h3>-->
                     <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
-                    <img src="img/logos/logo-big.jpg" alt="" class="img-responsive img-center ">
+                    <img src="img/logos/logo-big.jpg" alt="" class="img-responsive img-center">
                 </div>
             </div>
             <div class="row ">
@@ -124,39 +123,15 @@ $var = 'hola';
                         recuperación oportuna de los subsidios dela empresa.
                     </p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <!--<h3 class="section-heading color-azul ">Acerca de nosotros</h3>-->
-                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
-                    <img src="img/mision-vision/banner-001.jpg" alt="" class="img-responsive">
-                </div>
-            </div>
-            <div class="row ">
                 <div class="col-md-6 ">
-                    <!--<span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>-->
                     <h4 class="service-heading text-center color-azul ">Misión</h4>
                     <p class="text-muted text-left ">Proporcionar a las empresas el soporte y gestión del recupero de subsidios y trámites ante <strong>ESSALUD</strong>.<br/>
                     Generando así un mayor tiempo y efectividad a las empresas en todo el relacionado a temas de asistencia social, cumpliendo con los reglamentos y normas legales que regulan el proceso.</p>
                 </div>
                 <div class="col-md-6 ">
-                    <!--<span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>-->
                     <h4 class="service-heading text-center color-azul ">Visión</h4>
                     <p class="text-muted text-left ">Ser una empresa líder e innovadora en los temas de servicios de asistencia social.<br/>
                     Con una atención personalizada, se le dará la comodidad tanto a los trabajadores como a las empresas logrando así una excelencia en el rubro de prestaciones de servicios.</p>
-                </div>
                 </div>
             </div>
         </div>
@@ -173,89 +148,57 @@ $var = 'hola';
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="http://gsisac.com.pe/blog/index.php/procedimiento-para-canje-de-descansos-medicos-particulares-essalud/" class="portfolio-link" >
-                        <div class="portfolio-hover">
+                    <!--<a href="#" class="portfolio-link" >-->
+                        <!--<div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
-                        </div>
+                        </div>-->
                         <img src="img/servicios/img-descanso-medic.jpg" class="img-responsive" alt="">
-                    </a>
+                    <!--</a>-->
                     <div class="portfolio-caption">
                         <h4 class="color-azul" >Canje descansos médicos</h4>
-                        <p class="text-muted">Particulares</p>
+                        <p class="text-left">Se realizará el canje de todo Certificado Médico Particular posterior al vigésimo día de incapacidad acumulado en el año por el trabajador y que cumpla con los requisitos respectivos; el cual será obligatoriamente canjeado por un CITT.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="http://gsisac.com.pe/blog/index.php/2016/07/05/tramite-de-subsidios-por-maternidad/" class="portfolio-link" >
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
                         <img src="img/servicios/subsidios-01.jpg" class="img-responsive" alt="">
-                    </a>
                     <div class="portfolio-caption">
-                        <h4 class="color-azul" >Gestión de Subsidios</h4>
-                        <p class="text-muted">Cómo gestionar</p>
+                        <h4 class="color-azul" >Gestión de Subsidios de Incapacidad Temporal</h4>
+                        <p class="text-left">Es el monto en dinero que se otorga a los asegurados regulares en actividad, con el fin de compensar la pérdida económica derivada de la incapacidad para el trabajo, ocasionada por el deterioro de la salud.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="http://gsisac.com.pe/blog/index.php/2016/07/13/incidencias-en-el-tramite-de-subsidios/" class="portfolio-link" >
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
+                        <img src="img/servicios/lactancia-01.jpg" class="img-responsive" alt="">
+
+                    <div class="portfolio-caption">
+                        <h4 class="color-azul" >Gestión de subsidio de Lactancia</h4>
+                        <p class="text-left">Es el monto en dinero que se otorga con el objeto de contribuir al cuidado del recién nacido, hijo de asegurado, por un monto de S/. 820 por cada lactante.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
                         <img src="img/servicios/resolucion-02.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="color-azul" >Resoluciónes</h4>
-                        <p class="text-muted">Incidencias en el trámite</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="http://gsisac.com.pe/blog/index.php/2016/07/05/requisitos-para-inscripcion-de-madre-gestante-yo-extra-matrimonial/" class="portfolio-link" >
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/servicios/essalud-logo.jpg" class="img-responsive" alt="">
-                    </a>
                     <div class="portfolio-caption">
                         <h4 class="color-azul" >Inscripción en ESSALUD</h4>
-                        <p class="text-muted">Cómo gestionar</p>
+                        <p class="text-left">Inscripciones altas y bajas del empleador ante EsSalud; trámites correspondientes para los cambios de dirección del asegurado ; respuesta a resoluciones por incidencias en el trámite de subsidios.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="http://gsisac.com.pe/blog/index.php/2016/07/04/subsidio-por-lactancia/" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
                         <img src="img/servicios/img-serv-02.jpg" class="img-responsive" alt="">
-                    </a>
                     <div class="portfolio-caption">
-                        <h4 class="color-azul" >Gestión de Lactancia</h4>
-                        <p class="text-muted">Cómo gestionar</p>
+                        <h4 class="color-azul" >Gestión de Subsidios de Maternidad</h4>
+                        <p class="text-left">Es el monto en dinero al que tienen derecho las Aseguradas Titulares en Actividad , a fin de resarcir el lucro cesante como consecuencia del alumbramiento y de las necesidades del cuidado del recién nacido.</p>
                     </div>
                 </div>
-                <!--<div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
-                    </a>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                        <img src="img/servicios/servicios-001.jpg" class="img-responsive" alt="">
                     <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4 class="color-azul" >Servicios Adicionales</h4>
+                        <p class="text-left">Servicios para eventos corporativos:<br/>catering, dinámicas de integración, alquiler de campos deportivos, animación con Orquesta & Espectáculos</p>
                     </div>
-                </div>-->
+                </div>
             </div>
         </div>
     </section>
@@ -354,24 +297,19 @@ $var = 'hola';
             <aside class="clients">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-12 ">
                             <a href="#">
                                 <img src="img/logos/logp-pepsico.png" class="img-responsive img-centered" alt="">
                             </a>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-12 ">
                             <a href="#">
                                 <img src="img/logos/logo-campo-fe.png" class="img-responsive img-centered" alt="">
                             </a>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-12 ">
                             <a href="#">
-                                <img src="img/logos/logo-rm.png" class="img-responsive img-centered" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <a href="#">
-                                <img src="img/logos/logo-saxon.png" class="img-responsive img-centered" alt="">
+                                <img src="img/logos/logo-rm-01.png" class="img-responsive img-centered" alt="">
                             </a>
                         </div>
                         
@@ -388,8 +326,8 @@ $var = 'hola';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading color-blanco ">Contacto</h2>
-                    <h3 class="section-subheading text-muted color-blanco ">Escriba su consulta y le responderemos a la brevedad.</h3>
+                    <h2 class="section-heading color-azul ">Contacto</h2>
+                    <h3 class="section-subheading text-muted color-azul ">Escriba su consulta y le responderemos a la brevedad.</h3>
                 </div>
             </div>
             <div class="row">
