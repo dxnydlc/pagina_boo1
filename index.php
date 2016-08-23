@@ -110,7 +110,7 @@ $var = 'hola';
             <div class="row ">
                 <div class="col-md-12">
                     <h4 class="service-heading text-center color-azul ">Quiénes somos</h4>
-                    <p class="text-muted text-left "><strong>SGI SAC</strong> somos una empresa especialista en la gestión
+                    <p class="text-muted text-left "><strong>GSI SAC</strong> somos una empresa especialista en la gestión
                         de recupero de subsidios y trámites ante Essalud. Además
                         brindamos servicios adicionales que complementen las
                         actividades en bienestar social dentro de las instituciones.
@@ -158,14 +158,14 @@ $var = 'hola';
                     <!--</a>-->
                     <div class="portfolio-caption">
                         <h4 class="color-azul" >Canje descansos médicos</h4>
-                        <p class="text-left">Se realizará el canje de todo Certificado Médico Particular posterior al vigésimo día de incapacidad acumulado en el año por el trabajador y que cumpla con los requisitos respectivos; el cual será obligatoriamente canjeado por un CITT.</p>
+                        <p class="text-muted text-left">Se realizará el canje de todo Certificado Médico Particular posterior al vigésimo día de incapacidad acumulado en el año por el trabajador y que cumpla con los requisitos respectivos; el cual será obligatoriamente canjeado por un CITT.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                         <img src="img/servicios/subsidios-01.jpg" class="img-responsive" alt="">
                     <div class="portfolio-caption">
                         <h4 class="color-azul" >Gestión de Subsidios de Incapacidad Temporal</h4>
-                        <p class="text-left">Es el monto en dinero que se otorga a los asegurados regulares en actividad, con el fin de compensar la pérdida económica derivada de la incapacidad para el trabajo, ocasionada por el deterioro de la salud.</p>
+                        <p class="text-muted text-left">Es el monto en dinero que se otorga a los asegurados regulares en actividad, con el fin de compensar la pérdida económica derivada de la incapacidad para el trabajo, ocasionada por el deterioro de la salud.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -173,7 +173,7 @@ $var = 'hola';
 
                     <div class="portfolio-caption">
                         <h4 class="color-azul" >Gestión de subsidio de Lactancia</h4>
-                        <p class="text-left">Es el monto en dinero que se otorga con el objeto de contribuir al cuidado del recién nacido, hijo de asegurado, por un monto de S/. 820 por cada lactante.</p>
+                        <p class="text-muted text-left">Es el monto en dinero que se otorga con el objeto de contribuir al cuidado del recién nacido, hijo de asegurado, por un monto de S/. 820 por cada lactante.</p>
                     </div>
                 </div>
                 </div>
@@ -181,22 +181,22 @@ $var = 'hola';
                 <div class="col-md-4 col-sm-6 portfolio-item">
                         <img src="img/servicios/resolucion-02.jpg" class="img-responsive" alt="">
                     <div class="portfolio-caption">
-                        <h4 class="color-azul" >Inscripción en ESSALUD</h4>
-                        <p class="text-left">Inscripciones altas y bajas del empleador ante EsSalud; trámites correspondientes para los cambios de dirección del asegurado ; respuesta a resoluciones por incidencias en el trámite de subsidios.</p>
+                        <h4 class="color-azul" >Servicios complementarios</h4>
+                        <p class="text-muted text-left">Inscripciones altas y bajas del empleador ante EsSalud; trámites correspondientes para los cambios de dirección del asegurado ; respuesta a resoluciones por incidencias en el trámite de subsidios.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                         <img src="img/servicios/img-serv-02.jpg" class="img-responsive" alt="">
                     <div class="portfolio-caption">
                         <h4 class="color-azul" >Gestión de Subsidios de Maternidad</h4>
-                        <p class="text-left">Es el monto en dinero al que tienen derecho las Aseguradas Titulares en Actividad , a fin de resarcir el lucro cesante como consecuencia del alumbramiento y de las necesidades del cuidado del recién nacido.</p>
+                        <p class="text-muted text-left">Es el monto en dinero al que tienen derecho las Aseguradas Titulares en Actividad , a fin de resarcir el lucro cesante como consecuencia del alumbramiento y de las necesidades del cuidado del recién nacido.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                         <img src="img/servicios/servicios-001.jpg" class="img-responsive" alt="">
                     <div class="portfolio-caption">
                         <h4 class="color-azul" >Servicios Adicionales</h4>
-                        <p class="text-left">Servicios para eventos corporativos:<br/>catering, dinámicas de integración, alquiler de campos deportivos, animación con Orquesta & Espectáculos</p>
+                        <p class="text-muted text-left">Servicios para eventos corporativos:<br/>catering, dinámicas de integración, alquiler de campos deportivos, animación con Orquesta & Espectáculos</p>
                     </div>
                 </div>
             </div>
@@ -297,22 +297,26 @@ $var = 'hola';
             <aside class="clients">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 col-sm-12 ">
+                        <div class="col-md-3 col-sm-12 ">
                             <a href="#">
                                 <img src="img/logos/logp-pepsico.png" class="img-responsive img-centered" alt="">
                             </a>
                         </div>
-                        <div class="col-md-4 col-sm-12 ">
+                        <div class="col-md-3 col-sm-12 ">
                             <a href="#">
                                 <img src="img/logos/logo-campo-fe.png" class="img-responsive img-centered" alt="">
                             </a>
                         </div>
-                        <div class="col-md-4 col-sm-12 ">
+                        <div class="col-md-3 col-sm-12 ">
                             <a href="#">
                                 <img src="img/logos/logo-rm-01.png" class="img-responsive img-centered" alt="">
                             </a>
                         </div>
-                        
+                        <div class="col-md-3 col-sm-12 ">
+                            <a href="#">
+                                <img src="img/logos/logo-jpa-01.png" class="img-responsive img-centered" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </aside>
@@ -326,7 +330,7 @@ $var = 'hola';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading color-azul ">Contacto</h2>
+                    <h2 class="section-heading color-azul ">Contáctenos</h2>
                     <h3 class="section-subheading text-muted color-azul ">Escriba su consulta y le responderemos a la brevedad.</h3>
                 </div>
             </div>

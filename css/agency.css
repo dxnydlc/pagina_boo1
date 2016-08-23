@@ -60,3 +60,6 @@ section#contact
 	background-repeat:no-repeat
 }
 
+#portfolio .portfolio-item .portfolio-caption p{
+	    font-style: normal;
+}
