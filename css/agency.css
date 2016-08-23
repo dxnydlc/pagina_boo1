@@ -61,5 +61,8 @@ section#contact
 }
 
 #portfolio .portfolio-item .portfolio-caption p{
-	    font-style: normal;
+    font-style: normal;
+    font-size: 14px !important;
+	line-height: 1.75 !important;
+	text-align: justify !important;
 }

@@ -18,7 +18,7 @@ $var = 'hola';
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/agency.css?v=1" rel="stylesheet">
+    <link href="css/agency.css?v=23816" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -87,10 +87,10 @@ $var = 'hola';
         <div class="container">
             <div class="intro-text">
 
-                <div class="intro-heading color-azul1 ">Gestión de Asistencia Social &</div>
-
+                <div class="intro-heading color-azul1 ">Gestión de Asistencia Social</div>
+                <div class="intro-heading color-azul1 ">&</div>
                 <div class="intro-lead-in color-azul1 ">Desarrollo de eventos corporativos</div>
-                <!--<a href="#services" class="page-scroll btn btn-xl">Saber más</a>-->
+
             </div>
         </div>
     </header>
@@ -125,13 +125,11 @@ $var = 'hola';
                 </div>
                 <div class="col-md-6 ">
                     <h4 class="service-heading text-center color-azul ">Misión</h4>
-                    <p class="text-muted text-left ">Proporcionar a las empresas el soporte y gestión del recupero de subsidios y trámites ante <strong>ESSALUD</strong>.<br/>
-                    Generando así un mayor tiempo y efectividad a las empresas en todo el relacionado a temas de asistencia social, cumpliendo con los reglamentos y normas legales que regulan el proceso.</p>
+                    <p class="text-muted text-left ">Proporcionar a las empresas el soporte y gestión del recupero de subsidios y trámites ante ESSALUD.Generando así un mayor tiempo y efectividad a las empresas en todo el relacionado a temas de asistencia social, cumpliendo con los reglamentos y normas legales que regulan el proceso.</p>
                 </div>
                 <div class="col-md-6 ">
                     <h4 class="service-heading text-center color-azul ">Visión</h4>
-                    <p class="text-muted text-left ">Ser una empresa líder e innovadora en los temas de servicios de asistencia social.<br/>
-                    Con una atención personalizada, se le dará la comodidad tanto a los trabajadores como a las empresas logrando así una excelencia en el rubro de prestaciones de servicios.</p>
+                    <p class="text-muted text-left ">Ser reconocidos, a nivel nacional, como una de las mejores empresas líder en la gestión de  asistencia social, brindando una atención personalizada a nuestros clientes, logrando así una excelencia en el rubro de prestaciones de servicios.</p>
                 </div>
             </div>
         </div>
@@ -158,14 +156,14 @@ $var = 'hola';
                     <!--</a>-->
                     <div class="portfolio-caption">
                         <h4 class="color-azul" >Canje descansos médicos</h4>
-                        <p class="text-muted text-left">Se realizará el canje de todo Certificado Médico Particular posterior al vigésimo día de incapacidad acumulado en el año por el trabajador y que cumpla con los requisitos respectivos; el cual será obligatoriamente canjeado por un CITT.</p>
+                        <p class="text-muted ">Se realizará el canje de todo Certificado Médico Particular posterior al vigésimo día de incapacidad acumulado en el año por el trabajador y que cumpla con los requisitos respectivos; el cual será obligatoriamente canjeado por un CITT.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                         <img src="img/servicios/subsidios-01.jpg" class="img-responsive" alt="">
                     <div class="portfolio-caption">
                         <h4 class="color-azul" >Gestión de Subsidios de Incapacidad Temporal</h4>
-                        <p class="text-muted text-left">Es el monto en dinero que se otorga a los asegurados regulares en actividad, con el fin de compensar la pérdida económica derivada de la incapacidad para el trabajo, ocasionada por el deterioro de la salud.</p>
+                        <p class="text-muted ">Es el monto en dinero que se otorga a los asegurados regulares en actividad, con el fin de compensar la pérdida económica derivada de la incapacidad para el trabajo, ocasionada por el deterioro de la salud.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -173,30 +171,30 @@ $var = 'hola';
 
                     <div class="portfolio-caption">
                         <h4 class="color-azul" >Gestión de subsidio de Lactancia</h4>
-                        <p class="text-muted text-left">Es el monto en dinero que se otorga con el objeto de contribuir al cuidado del recién nacido, hijo de asegurado, por un monto de S/. 820 por cada lactante.</p>
+                        <p class="text-muted ">Es el monto en dinero que se otorga con el objeto de contribuir al cuidado del recién nacido, hijo de asegurado, por un monto de S/. 820 por cada lactante.</p>
                     </div>
                 </div>
-                </div>
-                <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                        <img src="img/servicios/resolucion-02.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-caption">
-                        <h4 class="color-azul" >Servicios complementarios</h4>
-                        <p class="text-muted text-left">Inscripciones altas y bajas del empleador ante EsSalud; trámites correspondientes para los cambios de dirección del asegurado ; respuesta a resoluciones por incidencias en el trámite de subsidios.</p>
-                    </div>
-                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
                         <img src="img/servicios/img-serv-02.jpg" class="img-responsive" alt="">
                     <div class="portfolio-caption">
                         <h4 class="color-azul" >Gestión de Subsidios de Maternidad</h4>
-                        <p class="text-muted text-left">Es el monto en dinero al que tienen derecho las Aseguradas Titulares en Actividad , a fin de resarcir el lucro cesante como consecuencia del alumbramiento y de las necesidades del cuidado del recién nacido.</p>
+                        <p class="text-muted ">Es el monto en dinero al que tienen derecho las Aseguradas Titulares en Actividad , a fin de resarcir el lucro cesante como consecuencia del alumbramiento y de las necesidades del cuidado del recién nacido.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                        <img src="img/servicios/resolucion-02.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-caption">
+                        <h4 class="color-azul" >Servicios complementarios</h4>
+                        <p class="text-muted ">Inscripciones altas y bajas del empleador ante ESSALUD; trámites correspondientes para los cambios de dirección del asegurado ; respuesta a resoluciones por incidencias en el trámite de subsidios.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                         <img src="img/servicios/servicios-001.jpg" class="img-responsive" alt="">
                     <div class="portfolio-caption">
                         <h4 class="color-azul" >Servicios Adicionales</h4>
-                        <p class="text-muted text-left">Servicios para eventos corporativos:<br/>catering, dinámicas de integración, alquiler de campos deportivos, animación con Orquesta & Espectáculos</p>
+                        <p class="text-muted ">Servicios para eventos corporativos:<br/>catering, dinámicas de integración, alquiler de campos deportivos, animación con Orquesta & Espectáculos</p>
                     </div>
                 </div>
             </div>
@@ -290,7 +288,7 @@ $var = 'hola';
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading color-azul ">Nuestros clientes</h2>
-                    <h3 class="section-subheading text-muted">Marcas que cuentan con nuestros servicios</h3>
+                    <h3 class="section-subheading text-muted">Empresas que cuentan con nuestros servicios</h3>
                 </div>
             </div>
             <!-- Clients Aside -->
